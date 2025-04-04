@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Page Title */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #ff9800;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+form input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+form button:hover {
+    background-color: #ff5722;
+}
+
+/* Result Section */
+.info {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    text-align: left;
+}
+
+.bar-container {
+    width: 80%;
+    margin: 10px auto;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.bar {
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.bar.edible {
+    background-color: #4caf50;
+}
+
+.bar.poisonous {
+    background-color: #f44336;
+}
+
+/* Link Styling */
+a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

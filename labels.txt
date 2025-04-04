@@ -1,0 +1,15 @@
+0 apple
+1 apricot
+2 avocado
+3 banana
+4 blue berry
+5 clementine
+6 corn
+7 kiwi
+8 lemon
+9 mango
+10 orange
+11 onion
+12 peach
+13 pear
+14 watermelon
